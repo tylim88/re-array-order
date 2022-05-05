@@ -1,6 +1,6 @@
 {
 	"name": "re-array-order",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Reorder array from one index to another index with full type safety and comprehensive errors",
 	"source": "src/index.ts",
 	"main": "dist/index.js",
@@ -20,9 +20,7 @@
 		"parcel": "rm -rf dist && tsc --emitDeclarationOnly true && parcel build",
 		"build": "rm -rf dist && tsc",
 		"link": "npm link && npm link re-array-order",
-		"generate": "ts-node --project tsconfig.doc.json scripts/generate.ts",
 		"update": "git pull && npm run generate && npm run pretty-quick && git add . && git commit --no-verify -m \"update list\" && git push",
-		"cron": "ts-node --project tsconfig.doc.json scripts/cron.ts",
 		"dev": "---------------------dev------------------------",
 		"d-link": "npm run build && npm run link",
 		"d-test": "tsc && npm test",

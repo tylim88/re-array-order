@@ -94,6 +94,8 @@ npm i re-array-order
 return a deeply cloned array
 
 ```ts
+import { reorder } from 're-array-order'
+
 const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 reorder(arr, { from: 0, to: 9 }) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
@@ -104,6 +106,8 @@ reorder(arr, { from: 7, to: 3 }) // [0, 1, 2, 7, 4, 5, 6, 3, 8, 9]
 throw error if `from` or `to` is invalid
 
 ```ts
+import { reorder } from 're-array-order'
+
 const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 reorder(arr, { from: 10, to: 0 }) // from out of range
@@ -124,6 +128,8 @@ Typescript will stop you from using fresh negative number and fresh decimal numb
 `number` is a valid type.
 
 ```ts
+import { reorder } from 're-array-order'
+
 const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 reorder(arr, {
