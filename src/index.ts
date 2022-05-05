@@ -12,7 +12,7 @@ type IsPositiveIntegerOrNumber<Value> = number extends Value
  * @param array array to reorder
  * @param indexes.from reorder from which index
  * @param indexes.to reorder to which index
- * @returns
+ * @returns reordered cloned array
  */
 export const reorder = <T, V extends number, U extends number>(
 	array: T[],

@@ -2,86 +2,92 @@
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD041 -->
 
-# Array Reorder
+# Reorder Array
 
 <div>
-		<a href="https://www.npmjs.com/package/array-reorder" target="_blank">
+		<a href="https://www.npmjs.com/package/reorder-array" target="_blank">
 				<img
-					src="https://img.shields.io/npm/v/array-reorder"
+					src="https://img.shields.io/npm/v/reorder-array"
 					alt="Created by tylim88"
 				/>
 			</a>
 			&nbsp;
 			<a
-				href="https://github.com/tylim88/array-reorder/blob/main/LICENSE"
+				href="https://github.com/tylim88/reorder-array/blob/main/LICENSE"
 				target="_blank"
 			>
 				<img
-					src="https://img.shields.io/github/license/tylim88/array-reorder"
+					src="https://img.shields.io/github/license/tylim88/reorder-array"
 					alt="License"
 				/>
 			</a>
 			&nbsp;
 			<a
-				href="https://www.npmjs.com/package/array-reorder?activeTab=dependencies"
+				href="https://www.npmjs.com/package/reorder-array?activeTab=dependencies"
 				target="_blank"
 			>
 				<img
-					src="https://img.shields.io/badge/dynamic/json?url=https://api.npmutil.com/package/array-reorder&label=dependencies&query=$.dependencies.count&color=brightgreen"
+					src="https://img.shields.io/badge/dynamic/json?url=https://api.npmutil.com/package/reorder-array&label=dependencies&query=$.dependencies.count&color=brightgreen"
 					alt="dependency count"
 				/>
 			</a>
 			&nbsp;
-			<a href="https://github.com/tylim88/array-reorder/actions" target="_blank">
+			<a href="https://github.com/tylim88/reorder-array/actions" target="_blank">
 				<img
-					src="https://github.com/tylim88/array-reorder/workflows/Main/badge.svg"
+					src="https://github.com/tylim88/reorder-array/workflows/Main/badge.svg"
 					alt="github action"
 				/>
 			</a>
 			&nbsp;
-			<a href="https://codecov.io/gh/tylim88/array-reorder" target="_blank">
+			<a href="https://codecov.io/gh/tylim88/reorder-array" target="_blank">
 				<img
-					src="https://codecov.io/gh/tylim88/array-reorder/branch/master/graph/badge.svg"
+					src="https://codecov.io/gh/tylim88/reorder-array/branch/master/graph/badge.svg"
 					alt="code coverage"
 				/>
 			</a>
 			&nbsp;
-			<a href="https://github.com/tylim88/array-reorder/issues" target="_blank">
+			<a href="https://github.com/tylim88/reorder-array/issues" target="_blank">
 				<img
 					alt="GitHub issues"
-					src="https://img.shields.io/github/issues-raw/tylim88/array-reorder"
+					src="https://img.shields.io/github/issues-raw/tylim88/reorder-array"
 				></img>
 			</a>
 			&nbsp;
-			<a href="https://snyk.io/test/github/tylim88/array-reorder" target="_blank">
+			<a href="https://snyk.io/test/github/tylim88/reorder-array" target="_blank">
 				<img
-					src="https://snyk.io/test/github/tylim88/array-reorder/badge.svg"
+					src="https://snyk.io/test/github/tylim88/reorder-array/badge.svg"
 					alt="code coverage"
 				/>
 			</a>
 			&nbsp;
 			<a
-				href="https://lgtm.com/projects/g/tylim88/array-reorder/alerts/"
+				href="https://lgtm.com/projects/g/tylim88/reorder-array/alerts/"
 				target="_blank"
 			>
 				<img
 					alt="Total alerts"
-					src="https://img.shields.io/lgtm/alerts/g/tylim88/array-reorder.svg?logo=lgtm&logoWidth=18"
+					src="https://img.shields.io/lgtm/alerts/g/tylim88/reorder-array.svg?logo=lgtm&logoWidth=18"
 				/>
 			</a>
 			&nbsp;
 			<a
-				href="https://lgtm.com/projects/g/tylim88/array-reorder/context:javascript"
+				href="https://lgtm.com/projects/g/tylim88/reorder-array/context:javascript"
 				target="_blank"
 			>
 				<img
 					alt="Language grade: JavaScript"
-					src="https://img.shields.io/lgtm/grade/javascript/g/tylim88/array-reorder.svg?logo=lgtm&logoWidth=18"
+					src="https://img.shields.io/lgtm/grade/javascript/g/tylim88/reorder-array.svg?logo=lgtm&logoWidth=18"
 				/>
 			</a>
 
 </div>
 <br/>
+
+## Installation
+
+```bash
+npm i reorder-array
+```
 
 ## Usage
 
