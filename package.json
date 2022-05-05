@@ -1,5 +1,5 @@
 {
-	"name": "array-reorder",
+	"name": "reorder-array",
 	"version": "1.0.0",
 	"description": "Reorder array from one index to another index",
 	"source": "src/index.ts",
@@ -19,7 +19,7 @@
 		"test": "rm -rf coverage && jest --forceExit",
 		"parcel": "rm -rf dist && tsc --emitDeclarationOnly true && parcel build",
 		"build": "rm -rf dist && tsc",
-		"link": "npm link && npm link array-reorder",
+		"link": "npm link && npm link reorder-array",
 		"generate": "ts-node --project tsconfig.doc.json scripts/generate.ts",
 		"update": "git pull && npm run generate && npm run pretty-quick && git add . && git commit --no-verify -m \"update list\" && git push",
 		"cron": "ts-node --project tsconfig.doc.json scripts/cron.ts",
@@ -39,14 +39,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tylim88/array-reorder.git"
+		"url": "git+https://github.com/tylim88/reorder-array.git"
 	},
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/tylim88/array-reorder/issues"
+		"url": "https://github.com/tylim88/reorder-array/issues"
 	},
-	"homepage": "https://github.com/tylim88/array-reorder#readme",
+	"homepage": "https://github.com/tylim88/reorder-array#readme",
 	"keywords": [
 		"array",
 		"from",
