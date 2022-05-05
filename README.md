@@ -98,12 +98,15 @@ reorder(arr, { from: 7, to: 3 }) // [0, 1, 2, 7, 4, 5, 6, 3, 8, 9]
 throw error if `from` or `to` is invalid
 
 ```ts
+const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 reorder(arr, { from: 10, to: 0 }) // from out of range
 reorder(arr, { from: 0, to: 10 }) // to out of range
 reorder(arr, { from: 1, to: -1 as number }) // to smaller than 0
 reorder(arr, { from: -1 as number, to: 1 }) // from smaller than 0
 reorder(arr, { from: 1, to: 1.34 as number }) // to is not an integer
 reorder(arr, { from: 0.237 as number, to: 1 }) // from is not an integer
+reorder([], { from: 0 as number, to: 0 }) // empty array
 ```
 
 ## Block invalid number
@@ -115,6 +118,8 @@ Typescript will stop you from using fresh negative number and fresh decimal numb
 `number` is a valid type.
 
 ```ts
+const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 reorder(arr, {
 	// @ts-expect-error
 	from: -1,
