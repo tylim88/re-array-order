@@ -21,6 +21,7 @@ describe('test reorder type', () => {
 		expect(() => reorder(arr, { from: -1 as number, to: 1 })).toThrow()
 		expect(() => reorder(arr, { from: 1, to: 1.34 as number })).toThrow()
 		expect(() => reorder(arr, { from: 0.237 as number, to: 1 })).toThrow()
+		expect(() => reorder([], { from: 0 as number, to: 0 })).toThrow()
 	})
 
 	it('test invalid input', () => {

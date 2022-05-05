@@ -1,6 +1,6 @@
 {
 	"name": "array-reorder",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Reorder array from one index to another index",
 	"source": "src/index.ts",
 	"main": "dist/index.js",
