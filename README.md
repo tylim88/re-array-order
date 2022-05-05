@@ -41,7 +41,7 @@
 			&nbsp;
 			<a href="https://codecov.io/gh/tylim88/re-array-order" target="_blank">
 				<img
-					src="https://codecov.io/gh/tylim88/re-array-order/branch/master/graph/badge.svg"
+					src="https://codecov.io/gh/tylim88/re-array-order/branch/main/graph/badge.svg"
 					alt="code coverage"
 				/>
 			</a>
