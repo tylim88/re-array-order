@@ -1,7 +1,7 @@
 {
 	"name": "re-array-order",
-	"version": "1.0.1",
-	"description": "Reorder array from one index to another index",
+	"version": "1.0.2",
+	"description": "Reorder array from one index to another index with full type safety and comprehensive errors",
 	"source": "src/index.ts",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
