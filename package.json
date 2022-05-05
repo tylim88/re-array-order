@@ -1,6 +1,6 @@
 {
 	"name": "re-array-order",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Reorder array from one index to another index with full type safety and comprehensive errors",
 	"source": "src/index.ts",
 	"main": "dist/index.js",
@@ -70,6 +70,7 @@
 		"pretty-quick": "^3.1.3",
 		"shelljs": "^0.8.5",
 		"ts-jest": "^27.1.4",
+		"ts-node": "^10.7.0",
 		"typescript": "^4.6.3"
 	},
 	"dependencies": {
