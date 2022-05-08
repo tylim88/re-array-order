@@ -27,7 +27,7 @@
 				target="_blank"
 			>
 				<img
-					src="https://img.shields.io/badge/dynamic/json?url=https://api.npmutil.com/package/re-array-order&label=dependencies&query=$.dependencies.count&color=brightgreen"
+					src="https://img.shields.io/badge/dynamic/json?url=https://api.npmutil.com/package/re-array-order&label=dependencies&query=$.dependencies.count&color=green"
 					alt="dependency count"
 				/>
 			</a>
